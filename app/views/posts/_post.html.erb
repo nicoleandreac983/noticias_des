@@ -1,0 +1,11 @@
+<div class="card">
+  <div class="card-body bg-warning">
+    <div class="user-info">
+      <h2>  <img class="user-image" src="<%= post.user.image %>" alt="Imagen de perfil" style="width: 40px; height: 40px;">
+        <%= post.user.nickname %> <i class="fa-solid fa-star fa-sm" style="color: #85fffd;"></i> <%= post.user.email %> </h2>
+    </div>
+    <h5 class="card-title">Titulo :<%= post.title %></h5>
+    <p class="card-text text-dark"><%= post.description %></p>
+    <%= post.updated_at %>
+  </div>
+</div>
