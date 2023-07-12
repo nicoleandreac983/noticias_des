@@ -7,9 +7,6 @@ ruby "3.2.0"
 gem "rails", "~> 7.0.6"
 gem "faker", "~> 2.23"
 gem 'devise'
-gem 'sassc'
-gem 'bootstrap', '~> 5.2'
-gem 'bootstrap-icons'
 gem 'figaro'
 
 
@@ -77,6 +74,3 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
-gem "cssbundling-rails", "~> 1.2"
-
-gem "jsbundling-rails", "~> 1.1"
